@@ -19,4 +19,6 @@ deployment:
     commands:
       - npm i apm -g
       - TAG=$(git describe --tags)
+      - FOO="bar"
+      - echo ${TAG} ${FOO}
       - apm publish --tag ${TAG}
