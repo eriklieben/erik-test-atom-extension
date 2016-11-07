@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle aurelia-atom-extension",
+        "command": "aurelia-atom-extension:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "aurelia-atom-extension",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "aurelia-atom-extension:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
