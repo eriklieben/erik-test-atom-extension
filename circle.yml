@@ -11,7 +11,7 @@ machine:
   environment:
     ATOM_LINT_WITH_BUNDLED_NODE: "true"
     APM_TEST_PACKAGES: ""
-    TAG: $(git describe --tags)
+    TAG: "$(git describe --tags)"
 
 deployment:
   release:
@@ -19,5 +19,5 @@ deployment:
     owner: eriklieben
     commands:
       - npm i apm -g
-      - echo $TAG
+      - git describe --tags
       - apm publish --tag $TAG
