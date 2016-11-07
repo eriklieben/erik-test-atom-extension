@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle aurelia-atom-extension",
-        "command": "aurelia-atom-extension:toggle"
+        "label": "Toggle erik-test-atom-extension",
+        "command": "erik-test-atom-extension:toggle"
       }
     ]
   },
@@ -12,11 +12,11 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "aurelia-atom-extension",
+          "label": "erik-test-atom-extension",
           "submenu": [
             {
               "label": "Toggle",
-              "command": "aurelia-atom-extension:toggle"
+              "command": "erik-test-atom-extension:toggle"
             }
           ]
         }

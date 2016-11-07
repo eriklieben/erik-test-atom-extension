@@ -1,16 +1,18 @@
 {
-  "name": "erik-test-extension",
-  "main": "./lib/aurelia-atom-extension",
+  "name": "erik-test-atom-extension",
+  "main": "./lib/erik-test-atom-extension",
   "version": "0.2.0",
   "description": "A short description of your package",
-  "keywords": [],
+  "keywords": [
+  ],
   "activationCommands": {
-    "atom-workspace": "aurelia-atom-extension:toggle"
+    "atom-workspace": "erik-test-atom-extension:toggle"
   },
-  "repository": "https://github.com/eriklieben/erik-test-atom-extension",
+  "repository": "https://github.com/atom/erik-test-atom-extension",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+  }
 }

@@ -1,4 +1,4 @@
-# aurelia-atom-extension package
+# erik-test-atom-extension package
 
 A short description of your package.
 
