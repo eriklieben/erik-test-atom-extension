@@ -18,4 +18,4 @@ deployment:
     owner: eriklieben
     commands:
       - npm i apm -g
-      - apm publish --tag $tag
+      - apm publish --tag (git describe --tags)
