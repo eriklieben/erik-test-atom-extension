@@ -12,3 +12,10 @@ machine:
     ATOM_LINT_WITH_BUNDLED_NODE: "true"
     APM_TEST_PACKAGES: ""
 
+deployment:
+  release:
+    tag: /[0-9]+(\.[0-9]+)*/
+    owner: eriklieben
+    commands:
+      - npm i apm -g
+      - apm publish --tag $tag
